@@ -1,0 +1,70 @@
+FRONTEND FILES - Complete List
+================================
+
+📁 APP DIRECTORY (Pages - All .tsx files)
+------------------------------------------
+app/
+├── page.tsx                    (Home page)
+├── layout.tsx                  (Root layout)
+├── globals.css                 (Global styles)
+├── admin/
+│   └── page.tsx               (Admin panel)
+├── cart/
+│   └── page.tsx               (Shopping cart)
+├── checkout/
+│   └── page.tsx               (Checkout page)
+├── login/
+│   └── page.tsx               (Login page)
+├── register/
+│   └── page.tsx               (Registration)
+├── orders/
+│   └── page.tsx               (Order history)
+├── products/
+│   ├── page.tsx               (Product listing)
+│   └── [id]/
+│       └── page.tsx           (Product details)
+└── wishlist/
+    └── page.tsx               (Wishlist page)
+
+
+📦 COMPONENTS DIRECTORY (React Components)
+-------------------------------------------
+components/
+├── Navbar.tsx                 (Navigation bar)
+├── Footer.tsx                 (Footer)
+├── Hero.tsx                   (Hero section)
+├── ProductCard.tsx            (Product card)
+├── FeaturedProducts.tsx       (Featured section)
+├── BestSellers.tsx            (Best sellers)
+├── CategoryCards.tsx          (Category cards)
+└── OffersSection.tsx          (Offers section)
+
+
+🔐 CONTEXT DIRECTORY (State Management)
+----------------------------------------
+context/
+├── AuthContext.tsx            (Authentication)
+└── CartContext.tsx            (Shopping cart)
+
+
+⚙️ CONFIGURATION FILES (Root Directory)
+-----------------------------------------
+next.config.js                 (Next.js config)
+tailwind.config.js             (Tailwind CSS)
+postcss.config.js              (PostCSS)
+tsconfig.json                  (TypeScript)
+next-env.d.ts                  (Next.js types)
+vercel.json                    (Vercel deployment)
+package.json                   (Dependencies - shared)
+
+
+═══════════════════════════════════════════
+✅ SUMMARY: Frontend = Everything EXCEPT /server
+═══════════════════════════════════════════
+
+🔧 BACKEND FILES (NOT Frontend - for Railway/Render)
+----------------------------------------------------
+server/                         (Backend only)
+railway.json                    (Backend deployment)
+render.yaml                     (Backend deployment)
+
